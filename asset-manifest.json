@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fashion/static/css/main.b2711c26.css",
-    "main.js": "/fashion/static/js/main.2ccf09f2.js",
+    "main.css": "/fashion/static/css/main.0a772c0f.css",
+    "main.js": "/fashion/static/js/main.3fc5420c.js",
     "static/media/hero-img.png": "/fashion/static/media/hero-img.b0c6d0cbe5f399f93dd7.png",
     "static/media/PTSans-Regular.woff": "/fashion/static/media/PTSans-Regular.fbd3de2f0a7edadf97d6.woff",
     "static/media/PTSerif-Italic.woff": "/fashion/static/media/PTSerif-Italic.1023cf896f5220edbca5.woff",
@@ -19,11 +19,11 @@
     "static/media/facebook.svg": "/fashion/static/media/facebook.a987465e14467d369afccdbe3d228b0e.svg",
     "static/media/icon4.svg": "/fashion/static/media/icon4.ffcdc98bf7704a38fa7ca8203c41cdda.svg",
     "index.html": "/fashion/index.html",
-    "main.b2711c26.css.map": "/fashion/static/css/main.b2711c26.css.map",
-    "main.2ccf09f2.js.map": "/fashion/static/js/main.2ccf09f2.js.map"
+    "main.0a772c0f.css.map": "/fashion/static/css/main.0a772c0f.css.map",
+    "main.3fc5420c.js.map": "/fashion/static/js/main.3fc5420c.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2711c26.css",
-    "static/js/main.2ccf09f2.js"
+    "static/css/main.0a772c0f.css",
+    "static/js/main.3fc5420c.js"
   ]
 }
