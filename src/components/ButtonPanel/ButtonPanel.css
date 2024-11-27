@@ -1,19 +1,20 @@
 .container-btn {
 	display: flex;
 	justify-content: space-around;
+	gap: 10px;
 	max-width: 509px;
 	width: 100%;
 	padding: 16px;
 	border: solid 1px grey;
 
 
-color: rgb(162, 162, 162);
-font-family: HK Grotesk;
-font-size: 14px;
+	color: rgb(162, 162, 162);
+	font-family: HK Grotesk;
+	font-size: 14px;
 }
 
 .active-btn {
-	background-color: red;
+	color: rgb(167, 13, 13);
 }
 
 

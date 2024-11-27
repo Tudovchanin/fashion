@@ -7,7 +7,7 @@ const CardAuthor = () => {
 
 		<div className='card-author'>
 			<div className='container-author-img'>
-				<img src="./content-img/image-9.jpeg" alt="author image" />
+			<img src={`${process.env.PUBLIC_URL}/content-img/image-9.jpeg`} alt="author image" />
 			</div>
 			<div className='author-info'>
 				<h3 className='author-info__title'>Kate Willems</h3>

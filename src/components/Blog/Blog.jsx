@@ -8,7 +8,7 @@ const Blog = () => {
   const dataLength = data.length;
   const indexBigCard = 6;
   const quantityCards = 11;
-  const arrayBtn = Array.from({ length: dataLength / quantityCards }, (_, index) => index + 1);
+  const arrayBtn = Array.from({ length: Math.ceil(dataLength / quantityCards) }, (_, index) => index + 1);
   const [start, setStart] = useState(0);
   const [end, setEnd] = useState(quantityCards);
   const [cardsData, setCardsData] = useState(data.slice(start, end));
@@ -32,7 +32,13 @@ const Blog = () => {
 
   function handleIndexClick(btn) {
     if (btn === "next") {
-      if (end === dataLength) {
+      if (end === dataLength ) {
+        return;
+      }
+      if(start + quantityCards >= dataLength) {
+        setStart(end);
+        setEnd(dataLength);
+        setActiveBtn((prev) => ++prev);
         return;
       }
       setStart(start + quantityCards);
@@ -70,22 +76,23 @@ const Blog = () => {
                 paragraph={cardData.paragraph}
                 date={cardData.date}
                 name={cardData.authorName}
-                id={index}
+                id={cardData.id}
               />
             )
         )}
-
-        <Card
-          key={cardsData[indexBigCard].id}
-          img={cardsData[6].image}
-          title={cardsData[6].title}
-          paragraph={cardsData[6].paragraph}
-          date={cardsData[6].date}
-          name={cardsData[6].authorName}
-          className={"big-card"}
-          footerText={cardsData[6].footerText}
-          id={5}
-        />
+{cardsData[indexBigCard] && cardsData[indexBigCard].id && (
+  <Card
+    key={cardsData[indexBigCard].id}
+    img={cardsData[indexBigCard].image}
+    title={cardsData[indexBigCard].title}
+    paragraph={cardsData[indexBigCard].paragraph}
+    date={cardsData[indexBigCard].date}
+    name={cardsData[indexBigCard].authorName}
+    className={"big-card"}
+    footerText={cardsData[indexBigCard].footerText}
+    id={cardsData[indexBigCard].id} // Используем id из cardsData
+  />
+)}
 
         {cardsData.map(
           (cardData, index) =>
@@ -97,12 +104,12 @@ const Blog = () => {
                 paragraph={cardData.paragraph}
                 date={cardData.date}
                 name={cardData.authorName}
-                id={index}
+                id={cardData.id}
               />
             )
         )}
       </div>
-      <h1>{activeBtn}</h1>
+    
       <ButtonPanel
         handleIndexClick={handleIndexClick}
         buttonTexts={["< OLDER POST", arrayBtn, "NEXT POST >"]}

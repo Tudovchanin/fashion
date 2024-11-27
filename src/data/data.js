@@ -409,7 +409,7 @@ const data = [
 		paragraph: 'One of Saturn’s largest rings may be newer than anyone',
 		date: 'June 6, 2019',
 		authorName: 'Rickie Baroch',
-		footerText: 'Sed , totam rem',
+		footerText: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem',
 		id: 51,
 	},
 	{
@@ -444,6 +444,7 @@ const data = [
 		authorName: 'Rickie Baroch',
 		id: 55,
 	},
+	
 ];
 
 export default data;

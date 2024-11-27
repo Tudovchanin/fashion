@@ -13,11 +13,6 @@
 	width: 100%;
 }
 
-.big-card {
-	max-width: 100%;
-	flex-grow: 1;
-}
-
 
 .card,
 .big-card,
@@ -43,7 +38,6 @@
 
 .big-card__container-img {
 	height: 349px;
-	outline: solid;
 }
 
 
