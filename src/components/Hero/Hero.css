@@ -1,0 +1,9 @@
+.hero {
+	height: 100vh;
+
+	background-image: url('./../../fashion-images/images/hero-img.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: solid;
+}

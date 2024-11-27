@@ -1,0 +1,17 @@
+.menu {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	font-family: PT Sans, sans-serif;
+	font-size: 14px;
+}
+.menu__item:hover {
+	color: #C9A96E;
+	cursor: pointer;
+}
+.menu__link {
+	display: block;
+	font-family: PT Sans, sans-serif;
+	font-size: 14px;
+	color: inherit;
+}

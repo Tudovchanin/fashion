@@ -1,0 +1,64 @@
+
+.card-author {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	-webkit-box-shadow: 0px 0px 3px 1px rgba(34, 60, 80, 0.2);
+	-moz-box-shadow: 0px 0px 3px 1px rgba(34, 60, 80, 0.2);
+	box-shadow: 0px 0px 3px 1px rgba(34, 60, 80, 0.2);
+}
+
+.container-author-img {
+	height: 180px;
+}
+
+.container-author-img img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.author-info {
+	text-align: center;
+	padding: 0 16px;
+}
+
+.author-info__title {
+	color: rgb(23, 23, 23);
+	font-family: PT Serif;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 1.3;
+}
+
+.author-info__description {
+	margin-bottom: 14px;
+
+	color: rgb(177, 177, 177);
+	font-family: PT Serif;
+	font-style: italic;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.36;
+}
+
+.author-info__bio {
+	color: rgb(102, 102, 102);
+	font-family: PT Sans;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.7;
+}
+
+.link-author {
+	padding: 12px;
+	border-top: solid 1px rgba(102, 102, 102, 0.169);
+
+
+	color: rgb(158, 103, 3);
+	font-family: PT Serif;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 16px;
+	text-align: center;
+}

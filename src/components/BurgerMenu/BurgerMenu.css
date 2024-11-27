@@ -1,0 +1,38 @@
+.burger-menu {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 30px;
+	height: 20px;
+	cursor: pointer;
+}
+
+.burger-menu__line-1,
+.burger-menu__line-2,
+.burger-menu__line-3 {
+	display: block;
+	height: 3px;
+	background-color: black;
+}
+
+
+.burger-menu__line-1,
+.burger-menu__line-2,
+.burger-menu__line-3 {
+	display: block;
+	height: 3px;
+	background-color: black;
+	transition: all .5s;
+}
+
+.rotate-line-1 {
+	transform: rotate(45deg) translate(7px, 5px);
+}
+
+.display-none {
+	display: none;
+}
+
+.rotate-line-3 {
+	transform: rotate(-45deg) translate(7px, -5px);
+}

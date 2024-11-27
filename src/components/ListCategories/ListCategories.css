@@ -1,0 +1,19 @@
+
+
+
+.list-categories__item {
+	padding: 14px 0;
+}
+
+.list-categories__item:not(:last-child) {
+	border-bottom: solid 1px rgb(177, 177, 177);
+}
+.list-categories__link {
+	display: flex;
+	justify-content: space-between;
+	color: rgb(102, 102, 102);
+	font-family: PT Serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.35;
+}

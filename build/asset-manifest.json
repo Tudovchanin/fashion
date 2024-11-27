@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0884b296.css",
+    "main.js": "/static/js/main.71657a7b.js",
+    "static/media/hero-img.png": "/static/media/hero-img.b0c6d0cbe5f399f93dd7.png",
+    "static/media/PTSans-Regular.woff": "/static/media/PTSans-Regular.fbd3de2f0a7edadf97d6.woff",
+    "static/media/PTSerif-Italic.woff": "/static/media/PTSerif-Italic.1023cf896f5220edbca5.woff",
+    "static/media/PTSerif-Regular.woff": "/static/media/PTSerif-Regular.f9c7d73046bf1e78d9d9.woff",
+    "static/media/PTSerif-Bold.woff": "/static/media/PTSerif-Bold.5893c2f0a41e02548deb.woff",
+    "static/media/HKGrotesk-Regular.woff": "/static/media/HKGrotesk-Regular.9f443d620806ae0d4de8.woff",
+    "static/media/Logotype.svg": "/static/media/Logotype.1d5c9aa42344b1434c9ead8d4f63b6b5.svg",
+    "static/media/youtube.svg": "/static/media/youtube.0536c4d547c9c8fee9c5661e1cf400ea.svg",
+    "static/media/dribble.svg": "/static/media/dribble.ff5b876d575377f2ae894969d0e693a2.svg",
+    "static/media/behance.svg": "/static/media/behance.df52356399b8eac4824095c73be27d85.svg",
+    "static/media/instagram.svg": "/static/media/instagram.6305c79c467839a9dedafa45ffc72816.svg",
+    "static/media/icon5.svg": "/static/media/icon5.ab5b299bf7c6e0831c85c14a05b7468d.svg",
+    "static/media/icon2.svg": "/static/media/icon2.5db963ab9b4db44c91a28c1fb5140719.svg",
+    "static/media/twitter.svg": "/static/media/twitter.f0c241926f7b2412d033597a91554c93.svg",
+    "static/media/facebook.svg": "/static/media/facebook.a987465e14467d369afccdbe3d228b0e.svg",
+    "static/media/icon4.svg": "/static/media/icon4.ffcdc98bf7704a38fa7ca8203c41cdda.svg",
+    "index.html": "/index.html",
+    "main.0884b296.css.map": "/static/css/main.0884b296.css.map",
+    "main.71657a7b.js.map": "/static/js/main.71657a7b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0884b296.css",
+    "static/js/main.71657a7b.js"
+  ]
+}

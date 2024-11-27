@@ -1,0 +1,18 @@
+:root {
+	--zIndexHeader: 3;
+	--zIndexBurger:4;
+}
+
+body {
+	background-color: #fff;
+}
+
+
+.wrapper-indentation {
+	display: flex;
+	flex-direction: column;
+	gap: 60px;
+}
+.margin-center {
+	margin: 0 auto;
+}

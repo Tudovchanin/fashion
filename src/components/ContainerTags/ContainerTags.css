@@ -1,0 +1,20 @@
+
+
+.container-tags{
+	display: flex;
+	flex-wrap: wrap;
+	gap:10px;
+}
+
+
+.tag {
+	display: inline-block;
+	padding: 4px 12px;
+
+
+	color: rgb(102, 102, 102);
+	font-family: PT Serif;
+	font-size: 14px;
+	font-weight: 400;
+	background: rgb(248, 249, 250);
+}
